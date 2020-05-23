@@ -1,2 +1,2 @@
 file_path: '/bin/file'
-file_test: '/bin/file /hab/svc/grep/hooks/run'
+file_test: '/bin/file /hab/svc/file/hooks/run'
