@@ -2,7 +2,7 @@
 # shellcheck disable=SC2209
 pkg_name=file
 pkg_origin=core
-pkg_version=5.39
+pkg_version=5.41
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_description="\
 file is a standard Unix program for recognizing the type of data contained in \
@@ -11,7 +11,7 @@ a computer file.\
 pkg_upstream_url="https://www.darwinsys.com/file/"
 pkg_license=('custom')
 pkg_source="ftp://ftp.astron.com/pub/$pkg_name/${pkg_name}-${pkg_version}.tar.gz"
-pkg_shasum="f05d286a76d9556243d0cb05814929c2ecf3a5ba07963f8f70bfaaa70517fad1"
+pkg_shasum=13e532c7b364f7d57e23dfeea3147103150cb90593a57af86c10e4f6e411603f
 pkg_deps=(
   core/glibc
   core/zlib
